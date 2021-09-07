@@ -227,3 +227,51 @@ h1 {
 
   color: var(--footer-links-color);
 }
+
+.filter {
+  list-style: none;
+}
+
+.filter-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
+.example-items {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color);
+}
+
+.example-list {
+  list-style: none;
+}
+
+.example-links {
+  text-decoration: none;
+}
+
+.example-paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
