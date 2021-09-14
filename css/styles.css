@@ -2,7 +2,7 @@
 Основной цвет текста - серый #757575
 вторичный цвет текста - черный #212121
 третий цвет текста - белый #FFFFFF
-цвет ссылок в футере - белый #FFFFFF 60%
+цвет ссылок в футере - белый #99FFFFFF (60%)
 
 Цвет фона:
 Основной цвет фона - белый #E5E5E5
@@ -15,7 +15,7 @@ Header - белый #FFFFFF
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --third-text-color: #ffffff;
-  --footer-links-color: rgba(255, 255, 255, 0, 6);
+  --footer-links-color: #ffffff99;
   --accent-color: #2196f3;
 
   --primary-background-color: #e5e5e5;
@@ -73,6 +73,10 @@ span {
 
 .nav-link:hover,
 .nav-link:focus {
+  color: #2196f3;
+}
+
+.current {
   color: #2196f3;
 }
 
@@ -169,7 +173,7 @@ h1 {
 .staff-names {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -180,7 +184,7 @@ h1 {
 .staff-professions {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -266,6 +270,10 @@ h1 {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+}
+
+.mail-phone {
+  font-style: normal;
 }
 
 .mail-phone:hover,
